@@ -40,7 +40,7 @@ body::after {
   z-index: -1; /* Para colocar a imagem por trás do conteúdo */
   opacity: 0.3; /* Opacidade da imagem de fundo */
   pointer-events: none; /* Para permitir a interação com o conteúdo por cima da imagem */
-  box-shadow: 0 0 50px #e0c529; /* Adiciona uma sombra em volta da imagem */
+  box-shadow: 0 0 50px var(--cor-background-card); /* Adiciona uma sombra em volta da imagem */
 }
 
 .cabecalho {
