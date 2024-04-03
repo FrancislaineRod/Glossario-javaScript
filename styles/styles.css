@@ -5,6 +5,7 @@
   --cor-sombra: rgba(0, 0, 0, 0.2);
   --cor-texto-titulo: #f3f3f3; /* Nova cor para o título */
   --cor-texto-descricao: #dcdcdc; /* Nova cor para a descrição */
+  --imagem-fundo: url('/imagens/javascript-logo.png');
 }
 
 * {
@@ -29,7 +30,7 @@ body {
 
 body::after {
   content: "";
-  background-image: url('/imagens/javascript-logo.png');
+  background-image: var(--imagem-fundo);
   background-repeat: repeat;
   background-size: 70px 50px;
   position: fixed;
