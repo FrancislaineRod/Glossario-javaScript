@@ -5,7 +5,8 @@
   --cor-sombra: rgba(0, 0, 0, 0.2);
   --cor-texto-titulo: #f3f3f3; /* Nova cor para o título */
   --cor-texto-descricao: #dcdcdc; /* Nova cor para a descrição */
-  --imagem-fundo: url('/imagens/javascript-logo.png');
+ /* --imagem-fundo: url('/imagens/javascript-logo.png');*/
+  --imagem-fundo: url('  https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png');
 }
 
 * {
